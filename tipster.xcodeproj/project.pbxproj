@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42817237179EF57E00178228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42817236179EF57E00178228 /* Foundation.framework */; };
+		42817239179EF57E00178228 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42817238179EF57E00178228 /* CoreGraphics.framework */; };
+		4281723B179EF57E00178228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4281723A179EF57E00178228 /* UIKit.framework */; };
+		42817241179EF57E00178228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4281723F179EF57E00178228 /* InfoPlist.strings */; };
+		42817243179EF57E00178228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42817242179EF57E00178228 /* main.m */; };
+		42817247179EF57E00178228 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42817246179EF57E00178228 /* AppDelegate.m */; };
+		42817249179EF57E00178228 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42817248179EF57E00178228 /* Images.xcassets */; };
+		42817250179EF57E00178228 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4281724F179EF57E00178228 /* XCTest.framework */; };
+		42817251179EF57E00178228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42817236179EF57E00178228 /* Foundation.framework */; };
+		42817252179EF57E00178228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4281723A179EF57E00178228 /* UIKit.framework */; };
+		4281725A179EF57E00178228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42817258179EF57E00178228 /* InfoPlist.strings */; };
+		4281725C179EF57E00178228 /* tipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4281725B179EF57E00178228 /* tipsterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42817253179EF57E00178228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4281722B179EF57E00178228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42817232179EF57E00178228;
+			remoteInfo = tipster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42817233179EF57E00178228 /* tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42817236179EF57E00178228 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42817238179EF57E00178228 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4281723A179EF57E00178228 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4281723E179EF57E00178228 /* tipster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipster-Info.plist"; sourceTree = "<group>"; };
+		42817240179EF57E00178228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42817242179EF57E00178228 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42817244179EF57E00178228 /* tipster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tipster-Prefix.pch"; sourceTree = "<group>"; };
+		42817245179EF57E00178228 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42817246179EF57E00178228 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42817248179EF57E00178228 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4281724E179EF57E00178228 /* tipsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4281724F179EF57E00178228 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		42817257179EF57E00178228 /* tipsterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipsterTests-Info.plist"; sourceTree = "<group>"; };
+		42817259179EF57E00178228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4281725B179EF57E00178228 /* tipsterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipsterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42817230179EF57E00178228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42817239179EF57E00178228 /* CoreGraphics.framework in Frameworks */,
+				4281723B179EF57E00178228 /* UIKit.framework in Frameworks */,
+				42817237179EF57E00178228 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4281724B179EF57E00178228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42817250179EF57E00178228 /* XCTest.framework in Frameworks */,
+				42817252179EF57E00178228 /* UIKit.framework in Frameworks */,
+				42817251179EF57E00178228 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4281722A179EF57E00178228 = {
+			isa = PBXGroup;
+			children = (
+				4281723C179EF57E00178228 /* tipster */,
+				42817255179EF57E00178228 /* tipsterTests */,
+				42817235179EF57E00178228 /* Frameworks */,
+				42817234179EF57E00178228 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42817234179EF57E00178228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42817233179EF57E00178228 /* tipster.app */,
+				4281724E179EF57E00178228 /* tipsterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42817235179EF57E00178228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42817236179EF57E00178228 /* Foundation.framework */,
+				42817238179EF57E00178228 /* CoreGraphics.framework */,
+				4281723A179EF57E00178228 /* UIKit.framework */,
+				4281724F179EF57E00178228 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4281723C179EF57E00178228 /* tipster */ = {
+			isa = PBXGroup;
+			children = (
+				42817245179EF57E00178228 /* AppDelegate.h */,
+				42817246179EF57E00178228 /* AppDelegate.m */,
+				42817248179EF57E00178228 /* Images.xcassets */,
+				4281723D179EF57E00178228 /* Supporting Files */,
+			);
+			path = tipster;
+			sourceTree = "<group>";
+		};
+		4281723D179EF57E00178228 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4281723E179EF57E00178228 /* tipster-Info.plist */,
+				4281723F179EF57E00178228 /* InfoPlist.strings */,
+				42817242179EF57E00178228 /* main.m */,
+				42817244179EF57E00178228 /* tipster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42817255179EF57E00178228 /* tipsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4281725B179EF57E00178228 /* tipsterTests.m */,
+				42817256179EF57E00178228 /* Supporting Files */,
+			);
+			path = tipsterTests;
+			sourceTree = "<group>";
+		};
+		42817256179EF57E00178228 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42817257179EF57E00178228 /* tipsterTests-Info.plist */,
+				42817258179EF57E00178228 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42817232179EF57E00178228 /* tipster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4281725F179EF57E00178228 /* Build configuration list for PBXNativeTarget "tipster" */;
+			buildPhases = (
+				4281722F179EF57E00178228 /* Sources */,
+				42817230179EF57E00178228 /* Frameworks */,
+				42817231179EF57E00178228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tipster;
+			productName = tipster;
+			productReference = 42817233179EF57E00178228 /* tipster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4281724D179EF57E00178228 /* tipsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42817262179EF57E00178228 /* Build configuration list for PBXNativeTarget "tipsterTests" */;
+			buildPhases = (
+				4281724A179EF57E00178228 /* Sources */,
+				4281724B179EF57E00178228 /* Frameworks */,
+				4281724C179EF57E00178228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42817254179EF57E00178228 /* PBXTargetDependency */,
+			);
+			name = tipsterTests;
+			productName = tipsterTests;
+			productReference = 4281724E179EF57E00178228 /* tipsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4281722B179EF57E00178228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = codepath;
+				TargetAttributes = {
+					4281724D179EF57E00178228 = {
+						TestTargetID = 42817232179EF57E00178228;
+					};
+				};
+			};
+			buildConfigurationList = 4281722E179EF57E00178228 /* Build configuration list for PBXProject "tipster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4281722A179EF57E00178228;
+			productRefGroup = 42817234179EF57E00178228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42817232179EF57E00178228 /* tipster */,
+				4281724D179EF57E00178228 /* tipsterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42817231179EF57E00178228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42817241179EF57E00178228 /* InfoPlist.strings in Resources */,
+				42817249179EF57E00178228 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4281724C179EF57E00178228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4281725A179EF57E00178228 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4281722F179EF57E00178228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42817247179EF57E00178228 /* AppDelegate.m in Sources */,
+				42817243179EF57E00178228 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4281724A179EF57E00178228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4281725C179EF57E00178228 /* tipsterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42817254179EF57E00178228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42817232179EF57E00178228 /* tipster */;
+			targetProxy = 42817253179EF57E00178228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4281723F179EF57E00178228 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42817240179EF57E00178228 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42817258179EF57E00178228 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42817259179EF57E00178228 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4281725D179EF57E00178228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4281725E179EF57E00178228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42817260179EF57E00178228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tipster/tipster-Prefix.pch";
+				INFOPLIST_FILE = "tipster/tipster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42817261179EF57E00178228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tipster/tipster-Prefix.pch";
+				INFOPLIST_FILE = "tipster/tipster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		42817263179EF57E00178228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tipster.app/tipster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tipster/tipster-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tipsterTests/tipsterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		42817264179EF57E00178228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tipster.app/tipster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tipster/tipster-Prefix.pch";
+				INFOPLIST_FILE = "tipsterTests/tipsterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4281722E179EF57E00178228 /* Build configuration list for PBXProject "tipster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4281725D179EF57E00178228 /* Debug */,
+				4281725E179EF57E00178228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4281725F179EF57E00178228 /* Build configuration list for PBXNativeTarget "tipster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42817260179EF57E00178228 /* Debug */,
+				42817261179EF57E00178228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42817262179EF57E00178228 /* Build configuration list for PBXNativeTarget "tipsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42817263179EF57E00178228 /* Debug */,
+				42817264179EF57E00178228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4281722B179EF57E00178228 /* Project object */;
+}
