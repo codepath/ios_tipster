@@ -12,6 +12,6 @@ This simple Tip Calculator application supports the following user stories:
 
 ### Screenshots
 
-<img src="http://thecodepath.github.io/ios_todo_app/images/1b.png" alt="Viewing items" width="350"/>
-<img src="http://thecodepath.github.io/ios_todo_app/images/2b.png" alt="Adding items" width="350"/>
+<img src="http://thecodepath.github.io/ios_tipster/images/tip1.png" alt="Main" width="350"/>
+<img src="http://thecodepath.github.io/ios_tipster/images/tip2.png" alt="Editing" width="350"/>
 
