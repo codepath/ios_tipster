@@ -10,10 +10,10 @@
 
 @interface TipViewController : UIViewController <UITextFieldDelegate>
 
-@property (nonatomic, strong) IBOutlet UITextField *billTextField;
-@property (nonatomic, strong) IBOutlet UILabel *tipLabel;
-@property (nonatomic, strong) IBOutlet UILabel *totalLabel;
-@property (nonatomic, strong) IBOutlet UISegmentedControl *tipControl;
+@property (nonatomic, weak) IBOutlet UITextField *billTextField;
+@property (nonatomic, weak) IBOutlet UILabel *tipLabel;
+@property (nonatomic, weak) IBOutlet UILabel *totalLabel;
+@property (nonatomic, weak) IBOutlet UISegmentedControl *tipControl;
 
 - (IBAction)onDoneButton;
 
